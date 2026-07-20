@@ -1,4 +1,4 @@
-# 🚀 Step 06 - Connect macOS Wazuh Agent to AWS Wazuh Manager
+# 🚀 Step 05 - Connect macOS Wazuh Agent to AWS Wazuh Manager
 
 ## 🎯 Goal
 
