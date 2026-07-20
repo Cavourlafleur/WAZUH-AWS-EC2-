@@ -1,4 +1,4 @@
-# 🚀 Wazuh Deployment Options: Community-Based vs Vendor-Based
+# 🚀 Step 01 Wazuh Deployment Options: Community-Based vs Vendor-Based
 
 ## 🎯 Purpose of This Document
 
