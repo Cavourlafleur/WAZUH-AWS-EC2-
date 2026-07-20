@@ -1,4 +1,4 @@
-# 🚀 Step 04 - Install Wazuh All-in-One on AWS
+# 🚀 Step 02 - Install Wazuh All-in-One on AWS
 
 ## 🎯 Goal
 
