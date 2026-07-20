@@ -1,4 +1,4 @@
-# 🚀 Step 05 - Add First AWS EC2 Wazuh Agent
+# 🚀 Step 04 - Add First AWS EC2 Wazuh Agent
 
 ## 🎯 Goal
 
