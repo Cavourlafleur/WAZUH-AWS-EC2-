@@ -19,7 +19,7 @@ The goal is to help management understand:
 
 ## 🧠 Executive Summary
 
-Wazuh is a free and open source security platform that provides SIEM and XDR capabilities for endpoints and cloud workloads [cite:216][cite:41]. Wazuh documentation says the platform includes central components such as the Wazuh server, indexer, and dashboard, while endpoints use the Wazuh agent to send data to the central platform [cite:217][cite:205].
+Wazuh is a free and open source security platform that provides SIEM and XDR capabilities for endpoints and cloud workloads . Wazuh documentation says the platform includes central components such as the Wazuh server, indexer, and dashboard, while endpoints use the Wazuh agent to send data to the central platform .
 
 For this business model, there are two main choices:
 
@@ -37,8 +37,8 @@ Recommended path:
 
 ## 🛡️ What Wazuh Does
 
-Wazuh monitors and protects endpoints, servers, cloud systems, and workloads by collecting security data from agents, analyzing events, generating alerts, and presenting dashboards for investigation and reporting [cite:205][cite:217].  
-The agent is lightweight and multi-platform, so it can be deployed to laptops, desktops, servers, cloud instances, containers, and virtual machines [cite:205][cite:218].
+Wazuh monitors and protects endpoints, servers, cloud systems, and workloads by collecting security data from agents, analyzing events, generating alerts, and presenting dashboards for investigation and reporting .  
+The agent is lightweight and multi-platform, so it can be deployed to laptops, desktops, servers, cloud instances, containers, and virtual machines .
 
 ### Simple explanation for non-technical people
 
@@ -55,7 +55,7 @@ Think of Wazuh like a security monitoring center:
 
 ### What Community-Based means
 
-Community-Based Wazuh means using the open source Wazuh platform and managing the deployment internally. Wazuh documentation states that the central components can be installed on a single host or distributed across separate hosts, depending on the environment [cite:41][cite:217].
+Community-Based Wazuh means using the open source Wazuh platform and managing the deployment internally. Wazuh documentation states that the central components can be installed on a single host or distributed across separate hosts, depending on the environment .
 
 It can be hosted in:
 
@@ -88,9 +88,9 @@ Community-Based Wazuh Platform
 | Pro | Explanation |
 |---|---|
 | More control | Infrastructure, rules, dashboards, retention, and security settings are under our control. |
-| Lower software licensing cost | Wazuh is free and open source [cite:41][cite:216]. |
+| Lower software licensing cost | Wazuh is free and open source . |
 | Strong learning value | Managing the platform internally builds deep understanding. |
-| Flexible deployment | Components can run on one host or multiple hosts [cite:217]. |
+| Flexible deployment | Components can run on one host or multiple hosts . |
 | Better service ownership | A managed security service can be built around the platform. |
 | More customization | Custom rules, reports, workflows, and integrations can be created. |
 
@@ -122,7 +122,7 @@ Community-Based Wazuh Platform
 
 ### Best fit
 
-Community-Based Wazuh is best when we want maximum control and are prepared to manage the platform ourselves. It is a strong option for building a managed security service, keeping software cost low, and supporting custom rules and integrations [cite:41][cite:217].
+Community-Based Wazuh is best when we want maximum control and are prepared to manage the platform ourselves. It is a strong option for building a managed security service, keeping software cost low, and supporting custom rules and integrations .
 
 ---
 
@@ -130,7 +130,7 @@ Community-Based Wazuh is best when we want maximum control and are prepared to m
 
 ### What Vendor-Based means
 
-Vendor-Based Wazuh means using **Wazuh Cloud**, the managed service operated by Wazuh. Wazuh documentation says Wazuh Cloud hosts and manages the central components, and includes provisioning, automated scaling, ongoing updates, and operational management [cite:216].
+Vendor-Based Wazuh means using **Wazuh Cloud**, the managed service operated by Wazuh. Wazuh documentation says Wazuh Cloud hosts and manages the central components, and includes provisioning, automated scaling, ongoing updates, and operational management .
 
 ### Vendor-Based architecture example
 
@@ -155,12 +155,12 @@ Wazuh Cloud
 
 | Pro | Explanation |
 |---|---|
-| Less backend work | Wazuh manages the central platform [cite:216]. |
-| Faster setup | Wazuh Cloud is presented as ready to use with no extra hardware or software required [cite:216]. |
-| Vendor-managed updates | Version upgrades and service updates are handled by Wazuh [cite:216]. |
-| Managed scalability | Scaling is part of the managed service [cite:216]. |
-| Platform monitoring and support | Platform monitoring and technical support are included [cite:216]. |
-| Compliance-focused service | Wazuh Cloud documentation states PCI DSS and SOC 2 compliance [cite:216]. |
+| Less backend work | Wazuh manages the central platform . |
+| Faster setup | Wazuh Cloud is presented as ready to use with no extra hardware or software required . |
+| Vendor-managed updates | Version upgrades and service updates are handled by Wazuh . |
+| Managed scalability | Scaling is part of the managed service . |
+| Platform monitoring and support | Platform monitoring and technical support are included . |
+| Compliance-focused service | Wazuh Cloud documentation states PCI DSS and SOC 2 compliance . |
 
 ### Vendor-Based cons
 
@@ -168,14 +168,14 @@ Wazuh Cloud
 |---|---|
 | Vendor cost | Wazuh Cloud is a paid managed service. |
 | Less infrastructure control | The vendor manages the backend platform. |
-| Shared responsibility remains | Agent deployment, rules, access control, integrations, and incident response still require internal or client involvement [cite:216]. |
+| Shared responsibility remains | Agent deployment, rules, access control, integrations, and incident response still require internal or client involvement . |
 | Margin pressure | Vendor cost must be included in pricing. |
 | Data location questions | Some clients may ask where data is stored and who manages it. |
 
 ### Shared responsibility model
 
-Wazuh documentation says Wazuh Cloud manages hosting, deployment, maintenance of central components, infrastructure monitoring, scaling, high availability, platform security, updates, and version upgrades [cite:216].  
-Wazuh also says customers manage agent deployment/configuration, custom detection rules, alerting policies, integrations, user access control, and incident response [cite:216].
+Wazuh documentation says Wazuh Cloud manages hosting, deployment, maintenance of central components, infrastructure monitoring, scaling, high availability, platform security, updates, and version upgrades .  
+Wazuh also says customers manage agent deployment/configuration, custom detection rules, alerting policies, integrations, user access control, and incident response .
 
 | Responsibility | Vendor-Based Wazuh |
 |---|---|
@@ -192,7 +192,7 @@ Wazuh also says customers manage agent deployment/configuration, custom detectio
 
 ### Best fit
 
-Vendor-Based Wazuh is best when faster deployment, less backend maintenance, and a cleaner operational model matter most. It is attractive when the client can afford a managed platform and prefers vendor-managed updates, scaling, and platform health monitoring [cite:216].
+Vendor-Based Wazuh is best when faster deployment, less backend maintenance, and a cleaner operational model matter most. It is attractive when the client can afford a managed platform and prefers vendor-managed updates, scaling, and platform health monitoring .
 
 ---
 
@@ -200,15 +200,15 @@ Vendor-Based Wazuh is best when faster deployment, less backend maintenance, and
 
 | Category | Community-Based Wazuh | Vendor-Based Wazuh |
 |---|---|---|
-| Who hosts Wazuh? | Internal team or client | Wazuh Cloud [cite:216] |
-| Who manages central components? | Internal team | Wazuh [cite:216] |
-| Who installs agents? | Internal team or client | Internal team or client [cite:216] |
-| Who handles backend updates? | Internal team | Wazuh [cite:216] |
+| Who hosts Wazuh? | Internal team or client | Wazuh Cloud  |
+| Who manages central components? | Internal team | Wazuh  |
+| Who installs agents? | Internal team or client | Internal team or client  |
+| Who handles backend updates? | Internal team | Wazuh  |
 | Who handles backups? | Internal team | Managed platform model; exact backup terms should be confirmed in the chosen plan |
-| Who handles scaling? | Internal team | Wazuh Cloud managed service [cite:216] |
+| Who handles scaling? | Internal team | Wazuh Cloud managed service  |
 | Who reviews alerts? | Internal team or client | Internal team or client |
 | Who responds to incidents? | Internal team or client | Internal team or client |
-| Software cost | Lower software cost, but infrastructure and labor costs remain [cite:41] | Paid vendor service |
+| Software cost | Lower software cost, but infrastructure and labor costs remain  | Paid vendor service |
 | Operational workload | High | Lower |
 | Control | High | Lower |
 | Speed to deploy | Medium | Faster |
@@ -218,12 +218,12 @@ Vendor-Based Wazuh is best when faster deployment, less backend maintenance, and
 
 ## ✅ Compliance Considerations
 
-Wazuh supports compliance visibility and reporting. Wazuh documentation says its default ruleset supports PCI DSS, HIPAA, NIST 800-53, TSC, and GDPR-related visibility use cases [cite:206][cite:207].  
-Wazuh also says it helps with compliance support through automation, improved security controls, log analysis, and incident response, but that this does not replace full compliance by itself [cite:206][cite:207].
+Wazuh supports compliance visibility and reporting. Wazuh documentation says its default ruleset supports PCI DSS, HIPAA, NIST 800-53, TSC, and GDPR-related visibility use cases .  
+Wazuh also says it helps with compliance support through automation, improved security controls, log analysis, and incident response, but that this does not replace full compliance by itself .
 
 ### Safe wording for clients
 
-> Wazuh supports compliance visibility and reporting by mapping security events and alerts to common frameworks. It helps provide monitoring and evidence, but full compliance also depends on business policies, procedures, and operational controls. [cite:206][cite:207]
+> Wazuh supports compliance visibility and reporting by mapping security events and alerts to common frameworks. It helps provide monitoring and evidence, but full compliance also depends on business policies, procedures, and operational controls. 
 
 ---
 
@@ -280,7 +280,7 @@ Clients should expect:
 - Faster platform availability
 - Less backend infrastructure responsibility
 - Vendor-managed central components
-- Continued need for agent management, rule tuning, alert review, and reporting on the service side [cite:216]
+- Continued need for agent management, rule tuning, alert review, and reporting on the service side 
 - Higher direct platform cost than using only the free open-source software
 
 ---
@@ -290,9 +290,9 @@ Clients should expect:
 | Risk | Community-Based | Vendor-Based |
 |---|---|---|
 | Server downtime | Must be prevented and fixed internally | Vendor-managed platform reduces backend burden |
-| Updates break the system | Testing and change management remain internal | Vendor handles central platform updates [cite:216] |
+| Updates break the system | Testing and change management remain internal | Vendor handles central platform updates  |
 | Storage fills up | Must be monitored and managed internally | Vendor-managed platform handles central infrastructure |
-| Client data exposure | Hosted data must be secured internally | Vendor handles platform security, but access still must be managed [cite:216] |
+| Client data exposure | Hosted data must be secured internally | Vendor handles platform security, but access still must be managed  |
 | Alert overload | Rules must still be tuned internally | Rules must still be tuned internally |
 | Incident response confusion | A process must be defined internally | A process still must be defined internally |
 | Profit margin pressure | Labor and infrastructure costs can grow | Vendor cost affects pricing |
@@ -301,7 +301,7 @@ Clients should expect:
 
 ## 🏁 Recommendation
 
-For learning, internal proof of concept, and team capability building, Community-Based Wazuh is the stronger starting point because it creates hands-on understanding of installation, architecture, agents, rules, logs, dashboards, hardening, and troubleshooting [cite:41][cite:212].  
+For learning, internal proof of concept, and team capability building, Community-Based Wazuh is the stronger starting point because it creates hands-on understanding of installation, architecture, agents, rules, logs, dashboards, hardening, and troubleshooting .  
 For a first paying client, the choice should follow the client’s priorities.
 
 | Client priority | Recommended option |
@@ -316,7 +316,7 @@ For a first paying client, the choice should follow the client’s priorities.
 
 ## Boss-friendly summary
 
-There are two realistic Wazuh options. Community-Based Wazuh means hosting and managing the platform directly, which provides more control and can support a strong managed service offering, but also creates responsibility for updates, backups, security, storage, uptime, and troubleshooting [cite:41]. Vendor-Based Wazuh through Wazuh Cloud reduces infrastructure work and speeds up deployment because the vendor manages the central platform, but it introduces vendor cost and still leaves agent management, alert review, reporting, and incident response on the service side [cite:216].
+There are two realistic Wazuh options. Community-Based Wazuh means hosting and managing the platform directly, which provides more control and can support a strong managed service offering, but also creates responsibility for updates, backups, security, storage, uptime, and troubleshooting . Vendor-Based Wazuh through Wazuh Cloud reduces infrastructure work and speeds up deployment because the vendor manages the central platform, but it introduces vendor cost and still leaves agent management, alert review, reporting, and incident response on the service side .
 
 ## Decision framework
 
@@ -331,4 +331,4 @@ Before choosing a model, ask:
 
 ## Final recommendation
 
-For the current project, the strongest path is to start with Community-Based Wazuh for lab work and platform mastery [cite:41][cite:212]. For client services, the strongest commercial approach is to offer both Community-Based Managed Wazuh and Vendor-Based Wazuh Cloud management, because the real value is not only the platform itself but also planning, deployment, agent onboarding, hardening, alert review, rule tuning, reporting, compliance-support visibility, client guidance, and ongoing management.
+For the current project, the strongest path is to start with Community-Based Wazuh for lab work and platform mastery . For client services, the strongest commercial approach is to offer both Community-Based Managed Wazuh and Vendor-Based Wazuh Cloud management, because the real value is not only the platform itself but also planning, deployment, agent onboarding, hardening, alert review, rule tuning, reporting, compliance-support visibility, client guidance, and ongoing management.
